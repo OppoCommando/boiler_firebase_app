@@ -15,4 +15,13 @@ class SharedPreferenceHelper{
   Future<void> changeBrightnessToDark(bool value) {
     return _sharedPreference.setBool(AppPreference.is_dark_mode, value);
   }
+
+  // Login:---------------------------------------------------------------------
+  Future<bool> get isLoggedIn async {
+    return _sharedPreference.getBool(AppPreference.is_logged_in) ?? false;
+  }
+
+  Future<bool> saveIsLoggedIn(bool value) async {
+    return _sharedPreference.setBool(AppPreference.is_logged_in, value);
+  }
 }
