@@ -5,20 +5,20 @@ import 'app_font_family.dart';
 final ThemeData themeData=ThemeData(
     fontFamily:AppFontFamily.anton,
     brightness: Brightness.light,
-    primaryColor: AppColor.cyan[100],
+    primaryColor: AppColor.monochromatic[100],
     primaryColorBrightness: Brightness.light,
     colorScheme: ColorScheme.fromSwatch(
-        primarySwatch: MaterialColor(AppColor.cyan[100]!.value,AppColor.cyan))
-        .copyWith(secondary: AppColor.cyan[100])
+        primarySwatch: MaterialColor(AppColor.monochromatic[100]!.value,AppColor.monochromatic))
+        .copyWith(secondary: AppColor.monochromatic[100])
 );
 
 final ThemeData darkThemeData=ThemeData(
     fontFamily:AppFontFamily.anton,
-    brightness: Brightness.light,
-    primaryColor: AppColor.cyan[700],
-    primaryColorBrightness: Brightness.light,
+    brightness: Brightness.dark,
+    primaryColor: AppColor.monochromatic[700],
+    primaryColorBrightness: Brightness.dark,
     colorScheme: ColorScheme.fromSwatch(
-        primarySwatch: MaterialColor(AppColor.cyan[700]!.value,AppColor.cyan))
-        .copyWith(secondary: AppColor.cyan[700])
+        primarySwatch: MaterialColor(AppColor.monochromatic[700]!.value,AppColor.monochromatic))
+        .copyWith(secondary: AppColor.monochromatic[700])
 
 );

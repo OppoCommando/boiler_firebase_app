@@ -13,4 +13,17 @@ class AppColor{
     800:  Color(0xFF5F9EA0),
     900:  Color(0xFF5F9EA0)
   };
+
+  static const Map<int, Color> monochromatic =  <int, Color>{
+    50:  Color(0xFFd1dee3),
+    100:  Color(0xFFc2d3d9),
+    200:  Color(0xFFc2d3d9),
+    300:  Color(0xFF637e89),
+    400:  Color(0xFF637e89),
+    500:  Color(0xFF637e89),
+    600:  Color(0xFF637e89),
+    700:  Color(0xFF637e89),
+    800:  Color(0xFF637e89),
+    900:  Color(0xFF59707a)
+  };
 }
